@@ -4,20 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/landing-page-fitmentor/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Fit Mentor</title>
   </head>
   <body>
-    <header class="header">
-      <a href="#" class="logo">FitMentor</a>
-      <nav class="nav">
-        <ul class="nav-links">
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#beneficios">Benefícios</a></li>
-          <li><a href="#como-funciona">Como Funciona</a></li>
-          <li><a href="#depoimentos">Depoimentos</a></li>
-        </ul>
-        <a href="#" class="btn-primary">Começar Agora</a>
-      </nav>
-    </header>
+<header class="header">
+  <a href="#inicio" class="logo">FitMentor</a>
+
+  <input type="checkbox" id="menu-toggle" />
+
+  <label for="menu-toggle" class="menu-icon" aria-label="Abrir menu" aria-controls="nav-principal">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav class="nav" id="nav-principal">
+    <ul class="nav-links">
+      <li><a href="#beneficios">Benefícios</a></li>
+      <li><a href="#como-funciona">Como Funciona</a></li>
+      <li><a href="#depoimentos">Depoimentos</a></li>
+    </ul>
+
+    <a href="#cta" class="btn-comecar">Começar Agora</a>
+  </nav>
+</header>
   </body>
 </html>
